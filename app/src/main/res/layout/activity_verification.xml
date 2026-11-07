@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LinearLayout أفقي: صورة 0.3 على اليسار + RelativeLayout 0.7 على اليمين -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="#F5E9C8">
+
+    <ImageView
+        android:id="@+id/img_photo_nj"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        android:padding="12dp"
+        android:src="@drawable/ic_traveler"
+        android:contentDescription="@string/photo_voyageur" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:padding="16dp"
+        android:background="@drawable/bg_passeport">
+
+        <TextView
+            android:id="@+id/tv_titre_passeport_nj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titre_passeport"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#5D4037" />
+
+        <TextView
+            android:id="@+id/tv_nom_nj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_titre_passeport_nj"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_age_nj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nom_nj"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_motif_nj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_age_nj"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_refuser_nj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/btn_refuser" />
+
+        <Button
+            android:id="@+id/btn_approuver_nj"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btn_refuser_nj"
+            android:text="@string/btn_approuver" />
+    </RelativeLayout>
+</LinearLayout>

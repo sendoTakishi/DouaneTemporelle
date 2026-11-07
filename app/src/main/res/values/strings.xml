@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Douane Temporelle</string>
+    <string name="titre_main">Enregistrement du voyageur</string>
+    <string name="hint_nom">Nom du voyageur</string>
+    <string name="hint_naissance">Année de naissance (ex: 1990)</string>
+    <string name="hint_destination">Année de destination (ex: 2050)</string>
+    <string name="btn_inspecter">Inspecter le profil</string>
+    <string name="erreur_champs">Veuillez remplir tous les champs</string>
+    <string name="motif_tourisme">Tourisme</string>
+    <string name="motif_modification">Modification du passé</string>
+    <string name="motif_fuite">Fuite</string>
+    <string-array name="motifs">
+        <item>@string/motif_tourisme</item>
+        <item>@string/motif_modification</item>
+        <item>@string/motif_fuite</item>
+    </string-array>
+    <string name="titre_passeport">PASSEPORT TEMPOREL</string>
+    <string name="lbl_nom">Nom : %1$s</string>
+    <string name="lbl_age">Âge temporel : %1$d ans</string>
+    <string name="lbl_motif">Motif : %1$s</string>
+    <string name="photo_voyageur">Photo du voyageur</string>
+    <string name="btn_approuver">Approuver le saut temporel</string>
+    <string name="btn_refuser">Refuser (Risque de paradoxe)</string>
+    <string name="msg_ok">Bon voyage %1$s !</string>
+    <string name="msg_ko">%1$s est en état d\'arrestation temporelle</string>
+    <string name="btn_nouveau">Nouveau voyageur</string>
+</resources>
