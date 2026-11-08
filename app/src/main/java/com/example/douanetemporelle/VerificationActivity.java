@@ -28,12 +28,12 @@ public class VerificationActivity extends AppCompatActivity {
         int ageTemporel = destination - naissance;
 
         // 3 - عرض الملخص على شكل جواز سفر
-        ((TextView) findViewById(R.id.tv_nom_nj)).setText(getString(R.string.lbl_nom, nom));
-        ((TextView) findViewById(R.id.tv_age_nj)).setText(getString(R.string.lbl_age, ageTemporel));
-        ((TextView) findViewById(R.id.tv_motif_nj)).setText(getString(R.string.lbl_motif, motif));
+        ((TextView) findViewById(R.id.tv_nom_mk)).setText(getString(R.string.lbl_nom, nom));
+        ((TextView) findViewById(R.id.tv_age_mk)).setText(getString(R.string.lbl_age, ageTemporel));
+        ((TextView) findViewById(R.id.tv_motif_mk)).setText(getString(R.string.lbl_motif, motif));
 
-        Button btnApprouver = findViewById(R.id.btn_approuver_nj);
-        Button btnRefuser = findViewById(R.id.btn_refuser_nj);
+        Button btnApprouver = findViewById(R.id.btn_approuver_mk);
+        Button btnRefuser = findViewById(R.id.btn_refuser_mk);
 
         // 4 - تعطيل زر "الموافقة" إذا كان السبب "تعديل الماضي" والفرق عددا أوليا
         boolean modification = getString(R.string.motif_modification).equals(motif);

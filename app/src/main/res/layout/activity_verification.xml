@@ -8,7 +8,7 @@
     android:background="#F5E9C8">
 
     <ImageView
-        android:id="@+id/img_photo_nj"
+        android:id="@+id/img_photo_mk"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.3"
@@ -24,7 +24,7 @@
         android:background="@drawable/bg_passeport">
 
         <TextView
-            android:id="@+id/tv_titre_passeport_nj"
+            android:id="@+id/tv_titre_passeport_mk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/titre_passeport"
@@ -33,41 +33,41 @@
             android:textColor="#5D4037" />
 
         <TextView
-            android:id="@+id/tv_nom_nj"
+            android:id="@+id/tv_nom_mk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_titre_passeport_nj"
+            android:layout_below="@id/tv_titre_passeport_mk"
             android:layout_marginTop="20dp"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/tv_age_nj"
+            android:id="@+id/tv_age_mk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_nom_nj"
+            android:layout_below="@id/tv_nom_mk"
             android:layout_marginTop="10dp"
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/tv_motif_nj"
+            android:id="@+id/tv_motif_mk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tv_age_nj"
+            android:layout_below="@id/tv_age_mk"
             android:layout_marginTop="10dp"
             android:textSize="18sp" />
 
         <Button
-            android:id="@+id/btn_refuser_nj"
+            android:id="@+id/btn_refuser_mk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:text="@string/btn_refuser" />
 
         <Button
-            android:id="@+id/btn_approuver_nj"
+            android:id="@+id/btn_approuver_mk"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_above="@id/btn_refuser_nj"
+            android:layout_above="@id/btn_refuser_mk"
             android:text="@string/btn_approuver" />
     </RelativeLayout>
 </LinearLayout>

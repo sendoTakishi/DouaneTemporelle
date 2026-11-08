@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Norbto les elements mta3 l'interface bel Java bech najmou nesta3mlouhom
-        etNom = findViewById(R.id.et_nom_nj);
-        etNaissance = findViewById(R.id.et_naissance_nj);
-        etDestination = findViewById(R.id.et_destination_nj);
-        spMotif = findViewById(R.id.sp_motif_nj);
-        btnInspecter = findViewById(R.id.btn_inspecter_nj);
+        etNom = findViewById(R.id.et_nom_mk);
+        etNaissance = findViewById(R.id.et_naissance_mk);
+        etDestination = findViewById(R.id.et_destination_mk);
+        spMotif = findViewById(R.id.sp_motif_mk);
+        btnInspecter = findViewById(R.id.btn_inspecter_mk);
 
         // N3abbiw l liste deroulante b asbeb essafar: Tourisme, Modification du passe, Fuite
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(
